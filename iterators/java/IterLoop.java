@@ -1,6 +1,8 @@
 public class IterLoop {
   public static void main(String[] args) {
-    for(int i : new Range(0,10,1)) {
+    
+    int[] array = {0, 1, 2, 3, 4, 5, 6, 7, 8, 9};
+    for(int i : array) {
       System.out.println(i);
     }
   }
